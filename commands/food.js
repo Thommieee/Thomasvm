@@ -1,4 +1,4 @@
-const randomPuppy = require("../node_modules/random-puppy");
+const randomPuppy = require("../node_modules/random-puppy/index.js");
 
 module.exports.run = async (bot, message, args) => {
 
