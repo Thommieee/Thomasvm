@@ -24,5 +24,5 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.help = {
     name: 'food',
-    description: "Laat een random food plaatje zien van r/food en r/foodporn"
+    description: "Laat een random plaatje zien van r/food en r/foodporn"
 }
