@@ -1,4 +1,4 @@
-const randomPuppy = require("random-puppy");
+const randomPuppy = require("../random-puppy");
 
 module.exports.run = async (bot, message, args) => {
 
