@@ -3,7 +3,7 @@ const randomPuppy = require('random-puppy');
 
 module.exports.run = async (bot, message, args) => {
 
-    let reddit = [
+    var reddit = [
         "meme",
         "animemes",
         "MemesOfAnime",
@@ -20,7 +20,7 @@ module.exports.run = async (bot, message, args) => {
         "AdviceAnimals"
     ]
 
-    let subreddit = reddit[Math.floor(Math.random() * reddit.length)];
+    var subreddit = reddit[Math.floor(Math.random() * reddit.length)];
 
     message.channel.startTyping();
 
